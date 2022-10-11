@@ -1,4 +1,4 @@
-# Trybe
+# Trybe Exercises
 
 This repository contains all exercises proposed by Trybe in the Web Development Course, done by Mário Sanseverino
 

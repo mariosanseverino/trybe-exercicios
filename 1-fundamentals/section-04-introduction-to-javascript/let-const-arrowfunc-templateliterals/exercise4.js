@@ -1,4 +1,4 @@
-const hello = (nome) => `Olá, ${nome}`
+const hello = (nome) => (`Olá, ${nome}`)
 
 let nome = 'Ivan'
 

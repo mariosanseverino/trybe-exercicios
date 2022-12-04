@@ -16,8 +16,4 @@ describe('Test developed to review the lotteryCheck function', () => {
     it('does the result contains 6 numbers in the array?', () => {
         expect(lotteryCheck([9, 41, 6, 1, 31, 20]).lotteryNumbers.length).toBe(6);
     })
-
-    // it('is the value of the key result an array?', () => {
-    //     expect(lotteryCheck([33, 12, 8, 27, 11, 49]).result).toEqual([12])
-    // })
 })

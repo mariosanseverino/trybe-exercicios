@@ -4,11 +4,11 @@
 // utilize a função newEmployees, definida abaixo, para receber a sua função como parâmetro e criar o objeto de cada pessoa contratada.
 
 const newEmployees = (allNames = []) => {
-    const employees = {}
+    const employees = {};
 
     allNames.forEach((name, index) => {
-        const username = allNames[index].charAt(0).toUpperCase() + allNames[index].slice(1)
-        employees[username] = `${name}@trybe.com`
+        const username = allNames[index].charAt(0).toUpperCase() + allNames[index].slice(1);
+        employees[username] = `${name}@trybe.com`;
     })
 
     return employees;

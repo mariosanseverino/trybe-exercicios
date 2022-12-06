@@ -22,6 +22,6 @@ const lotteryCheck = (betNumbers = []) => {
     return { betNumbers, lotteryNumbers, result };
 }
 
-console.log(lotteryCheck([52, 33, 27, 12, 25, 47]));
+console.log(lotteryCheck([52, 33, 25, 12, 25, 47]));
 
 module.exports = { lotteryCheck }

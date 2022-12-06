@@ -65,7 +65,7 @@ const date = new Date().getFullYear();
 
   // Adicione o código do exercício aqui:
 
-const bookGenreFilter = (array) => array.filter((book) => book.genre === 'Fantasia' || book.genre === 'Ficção Científica');
+const bookGenreFilter = (array, genre) => array.filter((book) => book.genre === genre);
 
 const bookAgeFilter = (array) => {
     const filteredBooks = array.filter((book) => 60 < date - book.releaseYear);
@@ -81,4 +81,4 @@ const bookAuthorBirthYear = (array, year) => {
 
 console.log(bookAuthorBirthYear(books, 1920))
 
-module.exports = { bookGenreFilter };
+module.exports = { bookGenreFilter, bookAgeFilter, bookAuthorBirthYear };

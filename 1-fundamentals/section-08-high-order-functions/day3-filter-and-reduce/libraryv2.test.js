@@ -1,3 +1,3 @@
-const { booksFilter } = require("./libraryv2");
+const { bookGenreFilter, bookAgeFilter, bookAuthorBirthYear } = require("./libraryv2");
 
 booksFilter
